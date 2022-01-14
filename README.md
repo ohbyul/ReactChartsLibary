@@ -1,6 +1,9 @@
 # 라이브러리 를 이용한 리액트 차트
+
+##### 학습 내용
 - 라우터 사용 작은 네비
 - 페이지별 라이브러리 차트
+##### 참고 라이브러리
 - https://apexcharts.com Apex
 - https://www.chartjs.org chart js
 ```
