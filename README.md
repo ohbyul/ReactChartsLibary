@@ -11,9 +11,26 @@ coreUI line chart
   (core UI 와 연결된 차트 출력 가능하나, 툴팁 에러)
   (chart js 자체는 연결 불가 라이브러리 문제 - utils)
 ```
+##  구현 화면
 
-![20220114_100252_3](https://user-images.githubusercontent.com/79763173/149437322-7f312abe-6598-49eb-aeea-3148ca7e52f0.jpg)
-![20220114_100252_4](https://user-images.githubusercontent.com/79763173/149437323-00e6b18f-065a-4ec5-ae46-cb841e33274f.jpg)
-![20220114_100252_5](https://user-images.githubusercontent.com/79763173/149437324-4716229c-5fb4-4539-b696-b360298fcc85.jpg)
-![20220114_100252_1](https://user-images.githubusercontent.com/79763173/149437325-a1b4ce7c-a2b5-4d86-bbd8-bc0c29d47de7.jpg)
-![20220114_100252_2](https://user-images.githubusercontent.com/79763173/149437326-3536ebd0-f9b4-4e51-aa64-e808f7c78687.jpg)
+#### Apex line chart
+![1](https://user-images.githubusercontent.com/79763173/149437690-97d381a5-9d0b-4984-8ed2-057c121803e9.jpg)
+```
+router사용 작은 네비로 페이지 분리
+```
+
+#### Apex bar chart
+![4](https://user-images.githubusercontent.com/79763173/149437687-31bab3ba-d360-40bd-9eab-b534e01c6c50.jpg)
+
+#### Apex real time chart *
+![3](https://user-images.githubusercontent.com/79763173/149437692-01ce9f6f-8033-4061-859c-d615939c19a7.jpg)
+![3-2](https://user-images.githubusercontent.com/79763173/149437694-3228454b-d14c-4b52-8c0f-826ad0964469.jpg)
+```
+실시간 계속 렌더링 하여 네트워크가 불안
+```
+
+#### coreUI line chart
+![2](https://user-images.githubusercontent.com/79763173/149437691-648de03b-9c74-4659-be11-19ca438b68dd.jpg)
+```
+코드는 가장 가벼우나, 툴팁 액션 오류
+```
