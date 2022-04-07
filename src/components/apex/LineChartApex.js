@@ -9,6 +9,7 @@ const LineChartApex = () => {
           chart: {
             height: 350,
             type: 'line',
+            background: 'black',
             zoom: {
               enabled: false
             }
@@ -23,9 +24,13 @@ const LineChartApex = () => {
             text: 'Product Trends by Month',
             align: 'left'
           },
+          theme: {
+            mode: 'dark', 
+            palette: 'palette1', 
+          },
           grid: {
             row: {
-              colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+              colors: undefined ,//['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
               opacity: 0.5
             },
           },
@@ -45,18 +50,14 @@ const LineChartApex = () => {
       }
 
     return (
-        <div className="app">
-          <div className="row">
-            <div className="mixed-chart">
-              <Chart
-                options={data.options}
-                series={data.series}
-                type="line"
-                width="800"
-              />
-            </div>
-          </div>
-        </div>
+      <>
+        <Chart
+          options={data.options}
+          series={data.series}
+          type="line"
+          width="100%"
+        />
+      </>
       );
 };
 

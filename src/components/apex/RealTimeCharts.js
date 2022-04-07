@@ -1,7 +1,7 @@
 import React from 'react';
 import ApexCharts from 'apexcharts'
 import Chart from "react-apexcharts"
-//오류...뜬금없이 이것저것 많이 남. 리얼타임
+//오류...뜬금없이 이것저것 많이 남. 리얼 타임 d
 import moment from 'moment'
 import '../../css/style.css';
 
