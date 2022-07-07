@@ -21,6 +21,12 @@ import BarMixChartJS from "./components/chartJs/BarMixChartJS";
 import MixChart from "./components/chartJs/MixChart";
 import PieChart from "./components/chartJs/PieChart";
 import MultiLineChart from "./components/chartJs/MultiLineChart";
+import Tab1 from "./components/reactTab/Tab1";
+import Tab2 from "./components/reactTab/Tab2";
+import Tab3 from "./components/reactTab/Tab3";
+import NivoBar from "./components/nivo/NivoBar";
+import NivoHeatMap from "./components/nivo/NivoHeatMap";
+import NivoPie from "./components/nivo/NivoPie";
 
 function App() {
   return (
@@ -43,6 +49,14 @@ function App() {
             <li><Link to= "/mixChart" >mixChart-chart.js</Link></li>
             <li><Link to= "/pieChart" >PieChart-chart.js</Link></li>
             <li><Link to= "/multiLineChart" >multiLineChart-chart.js</Link></li>
+            <br />
+            <li><Link to= "/tab1" >tab1-material ui</Link></li>
+            <li><Link to= "/tab2" >tab2-material ui</Link></li>
+            <li><Link to= "/tab3" >tab3-material ui</Link></li>
+            <br />
+            <li><Link to= "/nivoBar" >Nivo-barChart</Link></li>
+            <li><Link to= "/nivoPie" >Nivo-nivoPie</Link></li>
+            <li><Link to= "/nivoHeatMap" >Nivo-heatMap Chart</Link></li>
           </ul>
         </nav>
         <Routes>
@@ -59,6 +73,12 @@ function App() {
           <Route path = "/mixChart" element={<MixChart />} />
           <Route path = "/pieChart" element={<PieChart />} />
           <Route path = "/multiLineChart" element={<MultiLineChart />} />
+          <Route path = "/tab1" element={<Tab1 />} />
+          <Route path = "/tab2" element={<Tab2 />} />
+          <Route path = "/tab3" element={<Tab3 />} />
+          <Route path = "/nivoBar" element={<NivoBar />} />
+          <Route path = "/nivoPie" element={<NivoPie />} />
+          <Route path = "/nivoHeatMap" element={<NivoHeatMap />} />
         </Routes>
       </div>
     </BrowserRouter>
